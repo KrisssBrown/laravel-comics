@@ -1,0 +1,37 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        border-bottom: 3px solid #0282F9;
+        color: #0282F9;
+    }
+}
+
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    li {
+        font-size: 13px;
+        height: 100%;
+        // display: flex;
+        // align-items: center;
+    }
+}
+
+.logo {
+    width: 60px;
+    padding: 15px 0;
+}
